@@ -1,0 +1,19 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"todo"},
+{"type":"table","name":"todo","database":"todo","data":
+[
+{"id":"1","agent_id":"AG12346","title":"Do Work","descrip":"I am here to do work","duedate":"2020-07-31","category":"Work From Home"},
+{"id":"3","agent_id":"AG12346","title":"Do Work","descrip":"I am here to do work","duedate":"2020-08-14","category":"Important"},
+{"id":"4","agent_id":"AG12345","title":"Agent Work","descrip":"I am agent AG12345","duedate":"2020-07-28","category":"Urgent"},
+{"id":"5","agent_id":"AG12346","title":"Cheat Code","descrip":"I am agent AG12346","duedate":"2020-07-24","category":"Need"},
+{"id":"6","agent_id":"AG12346","title":"Hello","descrip":"New Job","duedate":"2020-08-15","category":"Important"}
+]
+}
+,{"type":"table","name":"users","database":"todo","data":
+[
+{"id":"5","agent_id":"AG12346","password":"ke1VRsejY9ew"},
+{"id":"6","agent_id":"AG12345","password":"ke1VRsejY9ew"}
+]
+}
+]
