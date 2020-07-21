@@ -1,0 +1,122 @@
+body {
+    background-image: url('image/bgg.jpg'); 
+	background-size:cover;
+  background-attachment: fixed;
+}
+.form {
+    margin: 50px auto;
+    width: 300px;
+    padding: 50px 25px;
+	background: rgba(0,0,0,0.5);
+}
+
+
+.card {
+	color:white;
+    margin: 50px auto;
+    width: 300px;
+    padding: 30px 25px;
+	background: rgba(0,0,0,0.4);
+}
+
+.list {
+    margin: 50px auto;
+    width: 900px;
+    padding: 30px 25px;
+	background: rgba(255,255,255,0.3);
+}
+
+.error {
+	width: 92%; 
+	margin: 0px auto; 
+	padding: 10px; 
+	border: 1px solid #a94442; 
+	color: #a94442; 
+	background: #f2dede; 
+	border-radius: 5px; 
+	text-align: left;
+}
+
+p{
+	color:white;
+}
+h1,h3{
+	text-align:center;
+	color:white;
+}
+
+h1.login-title {
+    color: white;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    height: 25px;
+    width: calc(100% - 23px);
+}
+.login-input:focus {
+    border-color:#6e8095;
+    outline: none;
+}
+
+a:hover, a:active {
+  font-size: 150%;
+}
+a{
+	color:white;
+}
+
+form.addbutton
+{
+	text-align:center;
+}
+
+form.logout
+{
+	text-align:center;
+}
+.delete{
+	text-align: center;
+	float:right;
+}
+.delete a{
+	color: red;
+	float:left;
+	border-radius: 3px;
+	text-decoration: none;
+	font-size:20px;
+	on:
+}
+
+.login-button {
+    color: #fff;
+    background: #55a1ff;
+    border: 0;
+    outline: 0;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+.link {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.link a {
+    color:white;
+}
+h3 {
+	text-decoration:underline;
+	color: white;
+    font-weight: normal;
+    text-align: center;
+}
